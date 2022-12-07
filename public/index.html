@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment: Async and Middleware using Express</title>
+    <!-- (Optional) Link to an existing or new stylesheet 
+        that includes rules for at least these selectors:
+        body, header, main, footer, button, and div.
+    -->
+    <link rel="stylesheet" href="./app.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Crimson+Text|Unica+One"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./icons8-friend-16.png" />
+    <script src="random.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <section>
+      <!-- Add a header with heading 1 to name the app. -->
+      <header>
+        <h1>BUDDY SYSTEM</h1>
+      </header>
+      <!-- Add a main area with a paragraph describing the app's purpose and to instruct the user.-->
+      <main>
+        <article>
+          <p>
+            Find an available buddy to accompany you during your every day
+            tasks! Choose the left button to submit through the browser or the
+            right button to submit through the server.
+          </p>
+          <p id="button_paragraph">
+            <!-- Add buttons to the main area for the user to execute the two different ways to call the API. -->
+            <button id="fromBrowser" value="submit through browser">
+              submit through browser
+            </button>
+            <button id="fromServer" value="submit through server">
+              submit through server
+            </button>
+            <!-- Add a division tag to the main area to render the random data. -->
+          </p>
+          <table id="data">
+            <thead>
+              <tr>
+                <th id="topleft"></th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Phone #</th>
+                <th id="topright">E-mail</th>
+              </tr>
+            </thead>
+            <tbody>
+              <div>
+                <!-- This is where the table data will display -->
+                <!-- Display the randomly-generated data in paragraphs or list items. -->
+              </div>
+            </tbody>
+            <tfoot></tfoot>
+          </table>
+        </article>
+      </main>
+      <!-- Add a footer with paragraph that provides a copyright statement. -->
+      <footer>&copy; 2022 Jesseline Velazquez</footer>
+    </section>
+  </body>
+</html>
